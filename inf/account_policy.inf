@@ -1,0 +1,14 @@
+[Version]
+signature="$CHICAGO$"
+[System Access]
+EnforcePasswordHistory = 24
+MaximumPasswordAge = 30
+MinimumPasswordAge = 14
+MinimumPasswordLength = 14
+PasswordComplexity = 1
+StorePasswordUsingReversibleEncryption = 0
+LockoutDuration = 15
+LockoutBadCount = 3
+RelaxMinimumPasswordLengthLimits = 1
+AllowAdminAccountLockout = 1
+ResetLockoutCount = 15
